@@ -10,7 +10,84 @@
 
     <Grid>
 
-        
+        <Border CornerRadius="20" Background="#4a4a4a">
+
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Image Name="profilePhoto"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Grid.Row="0"
+                       Grid.Column="4"
+                       Grid.ColumnSpan="2"
+                       Grid.RowSpan="2"
+                       Source="/_asset/profile.png"
+                       Height="150"/>
+
+                <Image HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Grid.Row="0"
+                       Grid.Column="4"
+                       Grid.ColumnSpan="2"
+                       Grid.RowSpan="2"
+                       Height="100"
+                       Source="/_asset/pic_back.png"/>
+
+                <Label x:Name="fullName"
+                       Grid.Row="2"
+                       Grid.Column="2"
+                       Grid.ColumnSpan="6"
+                       Foreground="White"
+                       FontSize="30"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"
+                       Content="Комиссаров Александр Алексеевич"/>
+
+                <Label x:Name="category"
+                       Grid.Row="3"
+                       Grid.Column="3"
+                       Grid.ColumnSpan="4"
+                       Foreground="White"
+                       FontSize="30"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"
+                       Content="Высшая категория"/>
+
+                <TextBox x:Name="groups"
+                       Grid.Row="4"
+                       Grid.Column="2"
+                       Grid.ColumnSpan="6"
+                       Foreground="White"
+                       FontSize="30"
+                         AcceptsReturn="True"
+                         TextWrapping="WrapWithOverflow"
+                         IsReadOnly="True"
+                       Text="Группы: ИСП-421п, ИСП-421м, ИСП-421, ИСП-421а"/>
+
+            </Grid>
+            
+        </Border>
         
     </Grid>
 </Page>

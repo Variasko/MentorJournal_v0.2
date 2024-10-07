@@ -53,3 +53,9 @@ C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\Soci
 C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\ActivistPage.baml
 C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\CharacteristicPage.baml
 C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\SocialPassportPage.baml
+C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\ClassHourPage.g.cs
+C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\IndividualWorkPage.g.cs
+C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\ParrentConferencePage.g.cs
+C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\ClassHourPage.baml
+C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\IndividualWorkPage.baml
+C:\Users\caxac\source\repos\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\ParrentConferencePage.baml

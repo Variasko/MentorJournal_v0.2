@@ -1,0 +1,87 @@
+﻿<Page x:Class="MentorJournal_v0._2.ClassHourPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MentorJournal_v0._2"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="ClassHourPage">
+
+    <Grid>
+        <Border CornerRadius="20" Background="#4a4a4a">
+
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="0" Opacity="0.5" Color="Black"/>
+            </Border.Effect>
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <ComboBox x:Name="groupName" HorizontalAlignment="Center" VerticalAlignment="Top" Width="100" Margin="0 10 0 0"
+                      Foreground="White" Background="#4a4a4a"/>
+
+                <DataGrid x:Name="dataGrid" Grid.Row="1" Background="#4a4a4a" Foreground="White" AutoGenerateColumns="False"
+                      IsReadOnly="True">
+
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Width="2*" Binding="{Binding date}" Foreground="White">
+
+                            <DataGridTextColumn.Header>
+
+                                <Label Content="Дата" Foreground="White"/>
+
+                            </DataGridTextColumn.Header>
+
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Width="2*" Binding="{Binding visited}" Foreground="White">
+
+                            <DataGridTextColumn.Header>
+
+                                <Label Content="Присутствовали" Foreground="White"/>
+
+                            </DataGridTextColumn.Header>
+
+                        </DataGridTextColumn>
+
+                        <DataGridTemplateColumn Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="editButton" Foreground="White">
+                                        <Image Source="/_asset/edit.png"/>
+                                    </Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="deleteButton" Foreground="White">
+                                        <Image Source="/_asset/delete.png"/>
+                                    </Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                    </DataGrid.Columns>
+
+                </DataGrid>
+
+                <Button x:Name="addButton"
+                    Grid.Row="2"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Content="Добавить" Click="addButton_Click"/>
+
+            </Grid>
+
+        </Border>
+    </Grid>
+</Page>

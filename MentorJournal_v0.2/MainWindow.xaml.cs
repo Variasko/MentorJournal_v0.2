@@ -123,17 +123,17 @@ namespace MentorJournal_v0._2
 
         private void parrentConferencePic_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            mainFrame.Navigate(new ParrentConferencePage());
         }
 
         private void individualWorkPic_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            mainFrame.Navigate(new IndividualWorkPage());
         }
 
         private void classHourPic_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            mainFrame.Navigate(new ClassHourPage());
         }
     }
 }

@@ -26,7 +26,7 @@
                         FontSize="20" Click="closeButton_Click"/>
 
                 <Border CornerRadius="20"
-                        Background="White"
+                        Background="#4a4a4a"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center">
 
@@ -42,17 +42,20 @@
 
                             <Label Content="Авторизация"
                                    FontSize="50"
+                                   Foreground="White"
                                    Margin="40 20"/>
 
                             <TextBox x:Name="loginEnter"
                                      Margin="40 20"
                                      FontSize="20"
+                                     Foreground="White"
                                      Style="{StaticResource MaterialDesignFloatingHintTextBox}"
                                      materialDesign:HintAssist.Hint="Логин"/>
 
                             <PasswordBox x:Name="passwordEnter"
                                          Margin="40 20"
                                          FontSize="20"
+                                         Foreground="White"
                                          Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
                                          materialDesign:HintAssist.Hint="Пароль"/>
 

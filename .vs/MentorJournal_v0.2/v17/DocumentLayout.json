@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\caxac\\source\\repos\\MentorJournal_v0.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91CF6F21-A45E-4C42-BD90-999975EFA676}|MentorJournal_v0.2\\MentorJournal_v0.2.csproj|C:\\Users\\caxac\\source\\repos\\MentorJournal_v0.2\\mentorjournal_v0.2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91CF6F21-A45E-4C42-BD90-999975EFA676}|MentorJournal_v0.2\\MentorJournal_v0.2.csproj|c:\\users\\caxac\\source\\repos\\mentorjournal_v0.2\\mentorjournal_v0.2\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{91CF6F21-A45E-4C42-BD90-999975EFA676}|MentorJournal_v0.2\\MentorJournal_v0.2.csproj|solutionrelative:mentorjournal_v0.2\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91CF6F21-A45E-4C42-BD90-999975EFA676}|MentorJournal_v0.2\\MentorJournal_v0.2.csproj|c:\\users\\caxac\\source\\repos\\mentorjournal_v0.2\\mentorjournal_v0.2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91CF6F21-A45E-4C42-BD90-999975EFA676}|MentorJournal_v0.2\\MentorJournal_v0.2.csproj|solutionrelative:mentorjournal_v0.2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -18,11 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 245,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\caxac\\source\\repos\\MentorJournal_v0.2\\MentorJournal_v0.2\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "MentorJournal_v0.2\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\caxac\\source\\repos\\MentorJournal_v0.2\\MentorJournal_v0.2\\ProfilePage.xaml",
+              "RelativeToolTip": "MentorJournal_v0.2\\ProfilePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-07T15:19:29.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\caxac\\source\\repos\\MentorJournal_v0.2\\MentorJournal_v0.2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MentorJournal_v0.2\\MainWindow.xaml",
@@ -34,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\caxac\\source\\repos\\MentorJournal_v0.2\\MentorJournal_v0.2\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MentorJournal_v0.2\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\caxac\\source\\repos\\MentorJournal_v0.2\\MentorJournal_v0.2\\MainWindow.xaml.cs",
               "RelativeToolTip": "MentorJournal_v0.2\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAwwIcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T16:08:37.482Z",
               "EditorCaption": ""
