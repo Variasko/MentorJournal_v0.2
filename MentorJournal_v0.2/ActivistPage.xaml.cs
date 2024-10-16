@@ -27,7 +27,12 @@ namespace MentorJournal_v0._2
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
-
+            AddEditActivistWindow a = new AddEditActivistWindow();
+            a.ShowDialog();
+            if (a.DialogResult == true)
+                MessageBox.Show("Вы сохранили");
+            else
+                MessageBox.Show("Вы отменили");
         }
     }
 }

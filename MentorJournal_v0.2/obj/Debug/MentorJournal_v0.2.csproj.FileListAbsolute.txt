@@ -122,3 +122,5 @@ C:\Users\caxac\YandexDisk\Шаражное нечто\Курсач\MentorJournal
 C:\Users\caxac\YandexDisk\Шаражное нечто\Курсач\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\MentorJournal_v0.2.pdb
 C:\Users\caxac\YandexDisk\Шаражное нечто\Курсач\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\AdminWindow.g.cs
 C:\Users\caxac\YandexDisk\Шаражное нечто\Курсач\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\AdminWindow.baml
+C:\Users\caxac\YandexDisk\Шаражное нечто\Курсач\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\AddEditActivistWindow.g.cs
+C:\Users\caxac\YandexDisk\Шаражное нечто\Курсач\MentorJournal_v0.2\MentorJournal_v0.2\obj\Debug\AddEditActivistWindow.baml

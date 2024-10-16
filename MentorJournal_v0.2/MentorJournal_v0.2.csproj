@@ -93,6 +93,9 @@
     <Compile Include="ActivistPage.xaml.cs">
       <DependentUpon>ActivistPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddEditActivistWindow.xaml.cs">
+      <DependentUpon>AddEditActivistWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdminWindow.xaml.cs">
       <DependentUpon>AdminWindow.xaml</DependentUpon>
     </Compile>
@@ -114,8 +117,11 @@
     <Compile Include="SocialPassportPage.xaml.cs">
       <DependentUpon>SocialPassportPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Test.cs" />
     <Page Include="ActivistPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddEditActivistWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -199,6 +205,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="config.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -243,6 +250,7 @@
     <Resource Include="_asset\logout.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Model\RequestModel\" />
     <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>

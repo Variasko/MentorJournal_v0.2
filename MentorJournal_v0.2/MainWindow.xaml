@@ -46,7 +46,6 @@
                             <Image x:Name="characteristicPic" Source="/_asset/edit.png" Height="50" Width="50" Margin="5" MouseDown="characteristicPic_MouseDown"/>
                             <Image x:Name="dormitoryPic" Source="/_asset/appartment.png" Height="50" Width="50" Margin="5" MouseDown="dormitoryPic_MouseDown"/>
                             <Image x:Name="socialPassportPic" Source="/_asset/invalid.png" Height="50" Width="50" Margin="5" MouseDown="socialPassportPic_MouseDown"/>
-                            <Image x:Name="eventPlanPic" Source="/_asset/calendar.png" Height="50" Width="50" Margin="5" MouseDown="eventPlanPic_MouseDown"/>
                             <Image x:Name="parrentConferencePic" Source="/_asset/group.png" Height="50" Width="50" Margin="5" MouseDown="parrentConferencePic_MouseDown"/>
                             <Image x:Name="individualWorkPic" Source="/_asset/superior.png" Height="50" Width="50" Margin="5" MouseDown="individualWorkPic_MouseDown"/>
                             <Image x:Name="classHourPic" Source="/_asset/list.png" Height="50" Width="50" Margin="5" MouseDown="classHourPic_MouseDown"/>
